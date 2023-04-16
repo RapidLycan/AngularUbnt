@@ -11,9 +11,17 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingComponent } from './Components/landing/landing.component';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NavbarComponent, FooterComponent, LandingComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent,
+    LandingComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -21,6 +29,8 @@ import { LandingComponent } from './Components/landing/landing.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    MatAutocompleteModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
