@@ -11,8 +11,10 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingComponent } from './Components/landing/landing.component';
+import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatTabsModule } from '@angular/material/tabs';
+import { Section1Component } from './Components/section1/section1.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     NavbarComponent,
     FooterComponent,
     LandingComponent,
+    Section1Component,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatIconModule,
     MatAutocompleteModule,
     MatTabsModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
