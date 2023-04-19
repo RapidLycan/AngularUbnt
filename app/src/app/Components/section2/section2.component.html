@@ -16,7 +16,9 @@
 <mat-grid-list cols="2" rowHeight="2:1">
   <mat-grid-tile> </mat-grid-tile>
 
-  <mat-grid-tile> </mat-grid-tile>
+  <mat-grid-tile>
+    <google-map [center]="mapCenter" width="50rem" height="50rem"></google-map>
+  </mat-grid-tile>
 
   <mat-grid-tile
     ><div class="background">

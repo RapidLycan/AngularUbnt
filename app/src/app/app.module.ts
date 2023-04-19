@@ -56,6 +56,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
     ReactiveFormsModule,
     MatSnackBarModule,
     MatGridListModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
