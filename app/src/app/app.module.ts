@@ -15,6 +15,17 @@ import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatTabsModule } from '@angular/material/tabs';
 import { Section1Component } from './Components/section1/section1.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { Section2Component } from './Components/section2/section2.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
+import { MatMenuModule } from '@angular/material/menu';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormComponent } from './Components/form/form.component';
+import { EmployeesComponent } from './Components/employees/employees.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -24,6 +35,9 @@ import { Section1Component } from './Components/section1/section1.component';
     FooterComponent,
     LandingComponent,
     Section1Component,
+    Section2Component,
+    FormComponent,
+    EmployeesComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +49,13 @@ import { Section1Component } from './Components/section1/section1.component';
     MatAutocompleteModule,
     MatTabsModule,
     MatInputModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatMenuModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
