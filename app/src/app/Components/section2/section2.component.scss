@@ -29,6 +29,10 @@
   text-align: start;
   padding: 2rem;
 
+  ::ng-deep .mat-tab-label-active {
+    background-color: red !important;
+  }
+
   p {
     font-size: 1.2rem;
     line-height: 3rem;

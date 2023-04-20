@@ -38,3 +38,131 @@
     font-size: 1.2rem;
   }
 }
+
+.card2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: #5fb3f8;
+  height: 35rem;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0.5rem 0;
+    padding: 5rem;
+    padding-right: 7rem;
+
+    p {
+      line-height: 2rem;
+      font-size: 1.2rem;
+    }
+
+    span {
+      background-color: #24282c;
+      height: 100%;
+      width: 0.5rem;
+      margin-right: 2rem;
+    }
+
+    a {
+      justify-content: end;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .paragraph {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  img {
+    height: 100%;
+  }
+
+  .img {
+    margin: 3rem;
+    margin-left: -2rem;
+  }
+}
+
+.card3 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: #008087;
+  height: 35rem;
+  justify-content: end;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    background-color: #24282c;
+    padding: 5rem;
+    padding-left: 14em;
+    width: 33rem;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      h1 {
+        margin-right: 2rem;
+      }
+    }
+
+    p {
+      line-height: 2rem;
+      font-size: 1.2rem;
+    }
+
+    span {
+      background-color: #3e4145;
+      height: 0.3rem;
+      width: 8rem;
+      margin-right: 0.5rem;
+    }
+
+    a {
+      justify-content: end;
+      text-decoration: none;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .paragraph {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+
+      a {
+        margin: 0 2rem;
+      }
+    }
+  }
+  img {
+    height: 110%;
+  }
+
+  .img {
+    margin: 3rem;
+    margin-right: -3rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+}
