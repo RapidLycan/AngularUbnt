@@ -7,14 +7,40 @@
   </p>
 </div>
 
-<mat-tab-group>
-  <mat-tab label="Management"> <app-employees></app-employees></mat-tab>
-  <mat-tab label="Economy"> <app-employees></app-employees></mat-tab>
-  <mat-tab label="Sales"> <app-employees></app-employees></mat-tab>
-</mat-tab-group>
+<div class="employees">
+  <mat-tab-group>
+    <mat-tab label="Management"> <app-employees></app-employees></mat-tab>
+    <mat-tab label="Economy"> <app-employees></app-employees></mat-tab>
+    <mat-tab label="Sales"> <app-employees></app-employees></mat-tab>
+  </mat-tab-group>
+</div>
 
-<mat-grid-list cols="2" rowHeight="2:1">
-  <mat-grid-tile> </mat-grid-tile>
+<div class="video">
+  <video width="100%" controls>
+    <source src="/assets/videos/VrVideo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<mat-grid-list cols="2" rowHeight="5:4">
+  <mat-grid-tile>
+    <div class="info">
+      <h1>This is also a sample header</h1>
+      <mat-tab-group>
+        <mat-tab label="Sample 1">
+          <p class="bold">Lorem ipsum dolor sit amet</p>
+          <p>adipisicing elit. Ipsum vitae quod</p>
+          <p>veniam illo soluta aperiam nihil</p>
+        </mat-tab>
+
+        <mat-tab label="Sample 2">
+          <p class="bold">Lorem ipsum dolor sit amet</p>
+          <p>adipisicing elit. Ipsum vitae quod</p>
+          <p>veniam illo soluta aperiam nihil</p>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </mat-grid-tile>
 
   <mat-grid-tile>
     <google-map [center]="mapCenter" width="50rem" height="50rem"></google-map>
@@ -25,5 +51,32 @@
       <img src="/assets/logos/logo-black.png" alt="" /></div
   ></mat-grid-tile>
 
-  <mat-grid-tile> </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="form">
+      <app-form></app-form>
+    </div>
+  </mat-grid-tile>
 </mat-grid-list>
+
+<div class="partners">
+  <div class="column">
+    <p>Company1</p>
+    <p>Company2</p>
+  </div>
+  <div class="column">
+    <p>Company1</p>
+    <p>Company2</p>
+  </div>
+  <div class="column">
+    <p>Company1</p>
+    <p>Company2</p>
+  </div>
+  <div class="column">
+    <p>Company1</p>
+    <p>Company2</p>
+  </div>
+  <div class="column">
+    <p>Company1</p>
+    <p>Company2</p>
+  </div>
+</div>

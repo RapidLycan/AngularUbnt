@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./section2.component.scss'],
 })
 export class Section2Component {
-  mapCenter = { lat: 37.8199, lng: -122.4783 };
+  mapCenter = { lat: 55.751244, lng: 37.618423 };
 }
