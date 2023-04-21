@@ -13,6 +13,9 @@ export class LandingComponent implements OnInit {
       const options: Intl.DateTimeFormatOptions = {
         timeZone: 'Europe/Moscow',
         hour12: false,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
         hour: 'numeric',
         minute: 'numeric',
         second: 'numeric',
